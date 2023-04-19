@@ -47,6 +47,7 @@ function Login() {
     navigate("/ListQuastion");
     // console.log(user.UserName);
   };
+
   return (
     <div className="home">
       {/* signin part */}
@@ -99,6 +100,7 @@ function Login() {
 
             <input
               type={passwordShown ? "text" : "password"}
+              name="password"
               placeholder="Your Password"
               onChange={(e) => setPassword(e.target.value)}
               value={password}
@@ -107,7 +109,7 @@ function Login() {
             <i
               className={passwordShown ? " fa fa-eye " : "fa fa-eye-slash"}
               aria-hidden="true"
-              id="togglePassword"
+              id="toggglePassword"
               onClick={togglePassword}
             ></i>
           </div>
