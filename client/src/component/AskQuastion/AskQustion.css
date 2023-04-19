@@ -38,14 +38,15 @@
 .textarea1{
     border: 1px solid rgba(213, 213, 213, 0.6);
     border-radius:  15px;
+    padding-top: 15px;
 }
-#places::placeholder{
-    padding-top: 10px;
+/* #places::placeholder{
+    padding-top: 200px;
 }
 #places1::placeholder{
     padding-top: 10px;
     padding-left: 10px;
-}
+} */
 .submitQuastion{
     width: 30%;
     background-color: blue;

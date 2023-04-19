@@ -36,13 +36,13 @@ line-height: 10px;
     line-height: 10px;
 }
 .error {
-  padding: 10px;
-  background: #ffefef;
-  border: 1px solid var(--error);
-  color: var(--error);
-  border-radius: 4px;
-  margin: 20px 0;
-  color: red;
+    padding: 10px;
+    background: #ffefef;
+    border: 1px solid var(--error);
+    color: var(--error);
+    border-radius: 4px;
+    margin: 20px 0;
+    color: red;
 }
 .userName{
     font-size: 12px;
@@ -70,9 +70,7 @@ line-height: 10px;
     border-radius: 15px;
 }
 
-#places::placeholder {
-    padding-top: 10px;
-}
+
 .submitQuastion {
     width: 30%;
     background-color: blue;
